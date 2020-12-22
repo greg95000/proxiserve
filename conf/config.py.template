@@ -1,0 +1,8 @@
+LOGIN = ""
+PASSWORD = ""
+
+ROOT_URL = "https://deepki-ready.deepki.com"
+CONNECT_URL = "{root}/login".format(root=ROOT_URL)
+ALL_CONDOMINIUM_TEMPLATE = "{root}/client/proxiserve/scoped/water?start={start_date}&end={end_date}"
+CONDOMINIUM_DATA_TEMPLATE = "{root}/groups/proxiserve/{condominium}/water?start={start_date}&end={end_date}"
+CONDIMINIUM_NAME = ""
